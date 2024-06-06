@@ -10,7 +10,7 @@ The GJI is a sophisticated numerical method for solving second-order ODEs. It is
     - solve a system of second-order ODEs
     - solve a system of first-order ODEs, by first writing as a system of second order ODE
 
-  In the following repository, I have provided implementations of GJ Numerical Integrators in Python, Matlab, and C++ versions separately.  
+  In the following repository, I have provided implementations of GJ Numerical Integrators in Python.  
 
 
 
