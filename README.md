@@ -13,3 +13,17 @@ The GJI is a sophisticated numerical method for solving second-order ODEs. It is
   In the following repository, I have provided implementations of GJ Numerical Integrators in Python, Matlab, and C++ versions separately.  
 
 
+
+## Additional Information
+
+The GJ ODE solver attempts to numerically solve a second-order ordinary differential equation in the form: y''(t) = f(t, y(t))
+
+for the value of the function _y_ at times _t_ = 0, _h_, _2h_, _3h_, ...
+
+Here, _f_ is an arbitrary function, and _y_ could be a scalar or vector function. For instance _y(t)_ might be the 3D position of a satellite at time _t_, and _f(t,y(t))_ might return the acceleration of the satellite at the given time at the given position. Or _f_ could be a simpler function, and our ODE could be something like: y''(t) = -y(t) + tsin(2t)
+
+which has the closed-form solution
+
+y(t) = c1cos(t) + c2sin(t) - (4/3)cos(2t) - (1/3)tsin(t), where c1 and c2 are constants (these may be determined by i.e. initial conditions). 
+
+
