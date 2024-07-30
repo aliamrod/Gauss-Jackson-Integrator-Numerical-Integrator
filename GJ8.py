@@ -53,17 +53,7 @@ def gauss_jackson_8(
     `RuntimeError`: if the algorithm to refine the start-up accelerations fails to converge.
     Try increasing `abs_tol` and/or `rel_tol` from their default values.
 
-    #### References
-
-    Implemented by following the algorithm described in:
-    Implementation of Gauss-Jackson Integration for Orbit Propagation
-    Berry, Matthew M. & Healy, Liam M. (2004)
-    The Journal of the Astronautical Sciences, Vol. 52, No. 3, July-September 2004, pp. 331-357
-    https://drum.lib.umd.edu/bitstream/handle/1903/2202/2004-berry-healy-jas.pdf
-
-    Tested against the MATLAB program written by Darin Koblick (2012)
-    https://www.mathworks.com/matlabcentral/fileexchange/36542-gauss-jackson-eighth-order-ode-solver-fixed-step-size
-    """
+   
 
     # init - load data
     if use_debug:
